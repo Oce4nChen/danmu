@@ -1,8 +1,9 @@
 
 $(document).ready(function() {
+     $(".dm").slideDown("slow");
     //提示：已经在页面导航部分的Settings中的JavaScript部分引入了wildog.js和jquery.js
     //在www.wildog.com 注册一个账号，创建一个应用，自动生成一个url,替换下边url即可
-    var ref = new wilddog("https://10123.wilddogio.com/danmu");
+    var ref = new Wilddog("https://10123.wilddogio.com/danmu");
     var arr = [];
     //把数据提交到野狗云
     $(".s_sub").click(function() {
@@ -18,8 +19,6 @@ $(document).ready(function() {
     });
     //响应按键清除事件
     $(".s_del").click(function() {
-        ref.remove();
-        arr = [];
         $('.dm_show').empty();
     });
     //监听云端数据变更，云端数据变化，弹幕框里数据也跟着变化。
