@@ -2,12 +2,12 @@
     width: 388px;
     height: 34px;
     border-radius: 3px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 2px solid rgb(204, 204, 204);
     padding-left: 10px;
 }
 
 .s_sub {
-    border: 1px solid rgb(230, 80, 30);
+    border: 2px solid rgb(230, 80, 30);
     color: rgb(230, 80, 0);
     border-radius: 3px;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .s_del {
-    border: 1px solid rgb(176, 168, 165);
+    border: 2px solid rgb(176, 168, 165);
     color: rgb(176, 168, 165);
     border-radius: 3px;
     text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .dm_screen {
-    border: 1px solid rgb(229, 229, 229);
+    border: 5px solid rgb(229, 229, 229);
     border-radius:5%;
 }
 
