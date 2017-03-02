@@ -18,8 +18,7 @@ $(document).ready(function() {
     });
     //响应按键清除事件
     $(".s_del").click(function() {
-        ref.remove();
-        arr = [];
+        
         $('.dm_show').empty();
     });
     //监听云端数据变更，云端数据变化，弹幕框里数据也跟着变化。
