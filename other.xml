@@ -1,0 +1,14 @@
+<application>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://vip2.svnspot.com/binhong.1219xianmu/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://vip2.svnspot.com/binhong.1219xianmu/" />
+      </list>
+    </option>
+  </component>
+</application>
